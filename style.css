@@ -1,0 +1,21 @@
+@font-face {
+  font-family: "Outfit-Bold";
+  src: url(./fonts/Outfit-Bold.ttf);
+}
+
+@font-face {
+  font-family: "Outfit-Regular";
+  src: url(./fonts/Outfit-Regular.ttf);
+}
+
+body {
+  background-color: hsl(212, 45%, 89%);
+}
+
+.card {
+  width: 300px;
+  height: 430px;
+  background-color: red;
+  border-radius: 15px;
+  text-align: center;
+}
