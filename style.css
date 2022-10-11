@@ -8,23 +8,29 @@
   src: url(./fonts/Outfit-Regular.ttf);
 }
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   background-color: hsl(212, 45%, 89%);
 }
 
 .card {
-  width: 275px;
+  width: 274px;
   height: 440px;
   background-color: #fff;
-  border-radius: 10px;
+  border-radius: 15px;
   text-align: center;
-  text-align: center;
+  margin-left: 40vw;
+  margin-top: 20vh;
 }
 
 .card h2 {
   font-family: "Outfit-Bold";
   font-size: 20px;
-  padding: 0px 13px 0px 13px;
+  padding: 15px 15px 15px 15px;
   color: #1f3251;
 }
 
@@ -32,12 +38,12 @@ body {
   font-family: "Outfit-Regular";
   font-size: 15px;
   color: #6e6e6e;
-  padding: 0px 5px 0px 5px;
+  padding: 0px 13px 0px 13px;
 }
 
 .box img {
   width: 250px;
   height: 250px;
-  margin-top: 10px;
+  margin-top: 12px;
   border-radius: 10px;
 }
