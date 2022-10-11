@@ -13,9 +13,31 @@ body {
 }
 
 .card {
-  width: 300px;
-  height: 430px;
-  background-color: red;
-  border-radius: 15px;
+  width: 275px;
+  height: 440px;
+  background-color: #fff;
+  border-radius: 10px;
   text-align: center;
+  text-align: center;
+}
+
+.card h2 {
+  font-family: "Outfit-Bold";
+  font-size: 20px;
+  padding: 0px 13px 0px 13px;
+  color: #1f3251;
+}
+
+.card p {
+  font-family: "Outfit-Regular";
+  font-size: 15px;
+  color: #6e6e6e;
+  padding: 0px 5px 0px 5px;
+}
+
+.box img {
+  width: 250px;
+  height: 250px;
+  margin-top: 10px;
+  border-radius: 10px;
 }
